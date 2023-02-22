@@ -3,8 +3,204 @@
   <head>
     <meta charset="utf-8" />
     <title>Быстрый запуск Webpack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Prata&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <p>Файл создан плагином html-webpack-plugin</p>
+    <header>
+      <img src="images/logo.png" alt="logo" class="logo" />
+      <ul class="menu">
+        <li class="manuItem">Каталог</li>
+        <li class="manuItem">Акции</li>
+        <li class="manuItem">Доставка</li>
+        <li class="manuItem">Контакты</li>
+      </ul>
+      <div class="blockIcons">
+        <img src="images/search.svg" alt="search" />
+        <div class="likeicon">
+          <div class="likeItems">1</div>
+          <img src="images/like.svg" alt="like" />
+        </div>
+        <img src="images/cart.svg" alt="cart" />
+      </div>
+    </header>
+    <main>
+      <section class="banerMain">
+        <img src="images/Ellipse.png" alt="Ellipse" class="banerMain_fon" />
+        <img
+          src="images/watch_main.png"
+          alt="watch_main"
+          class="banerMain_image"
+        />
+        <div class="banerMain_price">
+          22 000<img src="./images/ruble.svg" alt="ruble" />
+          <div class="banerMain_line"></div>
+        </div>
+        <div class="banerMain_header">
+          <div class="banerMain_header_title">
+            <div class="banerMain_line"></div>
+            <div class="banerMain_description">
+              <h1>Весна/Лето 2019</h1>
+              <p>Коллекция</p>
+              <span>
+                Швейцарские часы в наличии в Москве и с доставкой по всему миру
+              </span>
+              <button>Смотреть каталог</button>
+            </div>
+          </div>
+          <div class="banerMain_param">
+            <div class="banerMain_line"></div>
+            <span> 28 мм диаметр </span>
+          </div>
+        </div>
+      </section>
+      <section class="model">
+        <h2>Популярные модели</h2>
+        <div class="modelAll">
+          <div>Смотреть все</div>
+        </div>
+        <div class="modelCatalog">
+          <div class="modelCatalog_item">
+            <div class="modelCatalog_item_title">
+              <p>RADO</p>
+              <span>65 300 <img src="./images/ruble.svg" alt="ruble" /></span>
+            </div>
+            <div class="modelCatalog_itemPhoto">
+              <img
+                src="./images/EllipseItem.png"
+                alt="EllipseItem"
+                class="modelCatalog_itemPhoto_fon"
+              />
+              <img
+                src="./images/watch_1.png"
+                alt="watch_1"
+                class="modelCatalog_itemPhoto_main"
+              />
+            </div>
+            <div class="modelCatalog_itemPhoto_more">
+              <div class="modelCatalog_itemPhoto_more_line"></div>
+              <span>Подробнее</span>
+            </div>
+          </div>
+
+          <div class="modelCatalog_item">
+            <div class="modelCatalog_item_title">
+              <p>BVLGARI</p>
+              <span>81 700 <img src="./images/ruble.svg" alt="ruble" /></span>
+            </div>
+            <div class="modelCatalog_itemPhoto">
+              <img
+                src="./images/EllipseItem.png"
+                alt="EllipseItem"
+                class="modelCatalog_itemPhoto_fon"
+              />
+              <img
+                src="./images/watch_2.png"
+                alt="watch_2"
+                class="modelCatalog_itemPhoto_main"
+              />
+            </div>
+            <div class="modelCatalog_itemPhoto_more">
+              <div class="modelCatalog_itemPhoto_more_line"></div>
+              <span>Подробнее</span>
+            </div>
+          </div>
+
+          <div class="modelCatalog_item">
+            <div class="modelCatalog_item_title">
+              <p>BVLGARI</p>
+              <span>72 700 <img src="./images/ruble.svg" alt="ruble" /></span>
+            </div>
+            <div class="modelCatalog_itemPhoto">
+              <img
+                src="./images/EllipseItem.png"
+                alt="EllipseItem"
+                class="modelCatalog_itemPhoto_fon"
+              />
+              <img
+                src="./images/watch_3.png"
+                alt="watch_3"
+                class="modelCatalog_itemPhoto_main"
+              />
+            </div>
+            <div class="modelCatalog_itemPhoto_more">
+              <div class="modelCatalog_itemPhoto_more_line"></div>
+              <span>Подробнее</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="description">
+        <div class="descriptionFon1"></div>
+        <div class="descriptionFon2">
+          <img src="./images/circle1.svg" alt="circle1" class="circle1" />
+          <img src="./images/circle2.svg" alt="circle2" class="circle2" />
+        </div>
+        <div class="descriptionContent">
+          <img src="./images/photo_banner.png" alt="photo_banner" />
+          <div class="descriptionBanner">
+            <h3>Подлинное качество</h3>
+            <p>
+              Все часы производятся в Швейцарии и имеют сертификаты качества.
+              Настоящие швейцарские часы — это предмет гордости и престижа.
+            </p>
+            <button>СМОТРЕТЬ КАТАЛОГ</button>
+          </div>
+        </div>
+      </section>
+      <section class="news">
+        <div class="newsDescription">
+          <h4>Следите за нашими новостями</h4>
+          <p>
+            Подписывайтесь на <strong>@conquest_watch</strong> в соцсетях и
+            узнавайте о новинках и акциях первыми.
+          </p>
+          <div class="newsDescription_social">
+            <img src="./images/instagram_icon.svg" alt="instagram_icon" />
+            <img src="./images/facebook_icon.svg" alt="facebook_icon" />
+            <img src="./images/twitter_icon.svg" alt="twitter_icon" />
+          </div>
+        </div>
+        <div class="newsPhoto">
+          <div class="newsPhoto_litle">
+            <img src="./images/photo_1.png" alt="photo_1" />
+            <img src="./images/photo_2.jpg" alt="photo_2" />
+          </div>
+          <img src="./images/photo_3.jpg" alt="photo_3" />
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <p><img src="./images/logoFooter.png" alt="logo" /></p>
+          <li>8 (499) 450-47-97</li>
+          <li>info@conquest.watch.ru</li>
+        </ul>
+        <ul>
+          <p>о компании</p>
+          <li>Наши магазины</li>
+          <li>Вакансии</li>
+          <li>Сертификаты</li>
+          <li>Отзывы</li>
+        </ul>
+        <ul>
+          <p>покупателям</p>
+          <li>Каталог товаров</li>
+          <li>Как заказать?</li>
+          <li>FAQ</li>
+          <li>Корпоративным клиентам</li>
+        </ul>
+        <ul>
+          <p>оплата и доставка</p>
+          <li>Способы оплаты</li>
+          <li>Время доставки</li>
+          <li>Гарантии и ремонт</li>
+          <li>Возврат и компенсация</li>
+        </ul>
+      </footer>
+    </main>
   </body>
 </html>
